@@ -1,0 +1,230 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    color: #305F6D;
+}
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+.title {
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 700;
+    color: #305F6D;
+}
+.description {
+    color: #8CA0A6;
+    font-size: 16px;
+    line-height: 26px;
+}
+.link, .link:visited, .link:active, .link:hover {
+    color: #46B4D4;
+}
+/** HEADER **/
+.header {
+    max-width: 1740px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navigation-panel {
+    display: flex;
+    justify-content: space-around;
+}
+.logo {
+    width: 191px;
+    margin-top: 45px;
+}
+.navigation-links {
+    font-family: 'Sunflower', sans-serif;
+    font-weight: 700;
+    margin-top: 51px;
+}
+.navigation-link, .navigation-link:visited {
+    padding-right: 70px;
+    color: #305F6D;
+}
+.navigation-link:hover, .navigation-link:active {
+    color: #46B4D4;
+}
+.navigation-link:last-child {
+    padding-right: 0px;;
+}
+.inner-header {
+    display: flex;
+    justify-content: center;
+}
+.header-info {
+    width: 1110px;
+    height: 537px;
+}
+.header-map {
+    background-image: url('./img/map.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-header-map {
+    max-width: 1110.28px;
+    height: 537.15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-title {
+    font-size: 42px;
+}
+.header-text {
+    max-width: 398px;
+}
+.header-image-cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 454px;
+    transform: rotate(-20.26deg);
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.header-image {
+    max-width: 511px;
+}
+/** /HEADER**/
+
+
+/**FUNCTIONALITY AND FEATURES**/
+
+.functionality {
+    background: linear-gradient(180deg, #F5FBFD -2.67%, rgba(245, 251, 253, 0) 100%);
+}
+.inner-functionality {
+    max-width: 1104px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+.features-title {
+    margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #8CA0A6;
+    text-align: center;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.feature-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.feature-image {
+    display: block;
+    margin: auto;
+    width: 160px;
+}
+
+.feature-image-caption {
+    width: 241px;
+    font-family: 'Sunflower', sans-serif;
+    line-height: 22px;
+    font-weight: 500;
+    color: #305F6D;
+    text-align: center;
+    margin-top: 31px;
+}
+/** /FUNCTIONALITY AND FEATURES **/
+
+
+/** PLANS **/
+
+.plans {
+    max-width: 1104px;
+    height: 565px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 27px 80px rgba(25, 141, 203, 0.07), 0px 6.0308px 17.869px rgba(25, 141, 203, 0.0417275), 0px 1.79553px 5.32008px rgba(25, 141, 203, 0.0282725);
+    border-radius: 15px;
+}
+.plan-image {
+    width: 455px;
+    height: 462px;
+    margin-top: 59px;
+}
+.plans-title {
+    font-weight: 700px;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 59px;
+    margin-bottom: 5px;
+}
+.question {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.button {
+    padding: 5px 20px;
+    border: 1px solid #D6E8F0;
+    border-radius: 6px;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #8CA0A6;
+}
+.button:hover {
+    padding: 5px 20px;
+    border: 1px solid #D6E8F0;
+    border-radius: 6px;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #ffffff;
+    background: #22CBFF;
+}
+/** /PLANS **/
+
+/** PARTNERS **/
+
+.title-partners{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 64px;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #8CA0A6;
+}
+.partners-block {
+    max-width: 1104px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-bottom: 70px;
+}
+.partner-logo-block{
+    display: flex;
+    flex: 0 0;
+    width: 25%;
+}
+.partner-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+/** /PARTNERS **/
